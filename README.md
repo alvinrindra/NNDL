@@ -1,10 +1,10 @@
-### Implementing Neural Networks and Deep Learning
+# Implementing Neural Networks and Deep Learning
 
-# Neural Network 2 Layers
+### Neural Network 2 Layers
 
-# Neural Network 3 Layers
+### Neural Network 3 Layers
 
-# Deep Learning
+### Deep Learning
 
 # Install requirements
 pip install -r requirements.txt
