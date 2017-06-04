@@ -41,8 +41,8 @@ P = ...
  JOneuron = length(T(1,:))  % Jumlah neurons pada output layer (1)
 
  JHneuron = 5;               % Jumlah neurons pada Hidden Layer
- LR = 0.1;                   % Learning Rate
- Epoch = 5000;               % Maksimum iteration
+ LR = 0.5;                   % Learning Rate
+ Epoch = 20000;               % Maksimum iteration
  MaxMSE = 10^-5;             % Maksimum Mean Square Error (MSE)
 
 %----------------------------------------------------------------------------

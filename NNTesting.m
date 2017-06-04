@@ -16,8 +16,8 @@ clear;
 
 NNTraining
 
-TestSet = [
-    3 3 1;
+TestSet = ...
+    [3 3 1;
     3 1 2;
     2 3 1;
     2 1 2;
@@ -25,17 +25,10 @@ TestSet = [
     1 2 2;
     1 1 1;];
     
- TestKelas = [
-     0;
-     1;
-     0;
-     1;
-     0;
-     1;
-     0;];
+ TestKelas = [0 1 0 1 0 1 0];
      
-JumPola = length(TestSet(:,1))  
-JumBenar = 0             
+JumPola = length(TestSet(:,1))  ;
+JumBenar = 0;             
 
 for pp=1:JumPola,
     CP = TestSet(pp,:);                 
@@ -72,9 +65,11 @@ for pp=1:JumPola,
  end
  
  display(['Akurasi JST = ' num2str(JumBenar/JumPola)]);
-
+ JumBenar
+ JumPola 
 
     
+
 
 
 
