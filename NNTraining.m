@@ -41,7 +41,7 @@ P = ...
  JOneuron = length(T(1,:))  % Jumlah neurons pada output layer (1)
 
  JHneuron = 5;               % Jumlah neurons pada Hidden Layer
- LR = 0.7;                   % Learning Rate
+ LR = 0.1;                   % Learning Rate
  Epoch = 5000;               % Maksimum iteration
  MaxMSE = 10^-5;             % Maksimum Mean Square Error (MSE)
 
@@ -123,7 +123,7 @@ while ( ee <= Epoch ) & ( MSEepoch > MaxMSE ),
         dW1 = [ dW1 ; delta1 ];
       end
       W1 = W1 + dW1;                % W1 baru
-      w2 = W2 + dW2;                % W2 baru
+      W2 = W2 + dW2;                % W2 baru
    end
    
    ee++;
@@ -135,6 +135,7 @@ plot(MSE);
 xlabel('Epoch')
 ylabel('MSE')
     
+
 
 
 
