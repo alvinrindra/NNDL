@@ -40,7 +40,7 @@ P = ...
  DimPola = length(P(1,:))   % Dimensi Pola latih (3)
  JOneuron = length(T(1,:))  % Jumlah neurons pada output layer (1)
 
- JHneuron = 5;               % Jumlah neurons pada Hidden Layer
+ JHneuron = 10;               % Jumlah neurons pada Hidden Layer
  LR = 0.5;                   % Learning Rate
  Epoch = 20000;               % Maksimum iteration
  MaxMSE = 10^-5;             % Maksimum Mean Square Error (MSE)

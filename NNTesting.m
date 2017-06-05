@@ -64,9 +64,9 @@ for pp=1:JumPola,
        
  end
  
- display(['Akurasi JST = ' num2str(JumBenar/JumPola)]);
  JumBenar
  JumPola 
+ display(['Akurasi JST = ' num2str((JumBenar/JumPola)*100) ' %']);
 
     
 
