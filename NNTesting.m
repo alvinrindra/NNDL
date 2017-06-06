@@ -45,6 +45,8 @@ for pp=1:JumPola,
         A2 = [A2 1/(1+exp(-v))];
     end
     
+    A3(pp) = A2;
+    
     %----------------------------------------------------------------------
     % Pemetaan A2 menjadi kelas keputusan
     % Jika A2 < 0.5 maka kelas = 0
