@@ -4,6 +4,10 @@
 
 ### Neural Network 3 Layers
 
+### Recurrent Neural Network
+
+### RNN with Natural Language Processing
+
 ### Deep Learning
 
 # Install requirements
