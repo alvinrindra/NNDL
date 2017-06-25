@@ -8,6 +8,8 @@
 
 ### RNN with Natural Language Processing
 
+### Convolutional Neural Networks
+
 ### Deep Learning
 
 # Install requirements
