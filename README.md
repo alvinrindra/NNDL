@@ -6,6 +6,9 @@
 
 ### Recurrent Neural Network
 
+#### Long-Short Term Memory
+#### Multiple TimeScale RNN
+
 ### RNN with Natural Language Processing
 
 ### Convolutional Neural Networks
